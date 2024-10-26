@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcrypt')
 const saltRounds = 10; //setting salt rounds
 const generateJwt = require('../services/jwt')
 const User = require('../models/userModel')
